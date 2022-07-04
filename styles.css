@@ -1,4 +1,113 @@
-/*////////////////////////
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --paars:#5722CD;
+    --blauw:#4845E4;
+    --roze:#ED4385;
+    --zwart:#0C0C0C;
+    --lichtpaars:#F2F0FF;
+    --lichtgrijs:#F3F6F9;
+    --grijs:#7A7A7A;
+}
+
+
+body {
+    font-family: "merriwe", sans-serif;
+}
+
+
+.navigatiebalk {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #F2F0FF;
+}
+
+
+.navigatiebalk ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-basis: 250px;
+    list-style-type: none;
+}
+
+a {
+    color:white;
+}
+
+header {
+    background-color:#4845E4 ;
+}
+
+.introductie {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #F2F0FF;
+    list-style-type: none;
+}
+
+.introductie li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #F2F0FF;
+    list-style-type: none;
+    flex-basis: 250px;
+}
+
+
+.one{
+    font-size: large ;
+    font-weight: bold;
+}
+
+.two {
+    font-size: small;
+}
+
+.three {
+    font-size: xx-small;
+    border-radius: 35px;
+    background: #ED4385;
+    padding: 5px;
+    width: 120px;
+    height: 25px;
+}
+
+.informatie {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.informatie ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
     Table of Contents
     1. Global Styles
     2. Typography
